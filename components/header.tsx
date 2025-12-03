@@ -13,7 +13,7 @@ export default function Header() {
           <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center font-mono font-bold text-primary-foreground">
             DS
           </div>
-          <span className="font-bold text-xl hidden sm:inline">Shiv gham Kumar</span>
+          <span className="font-bold text-xl hidden sm:inline">Shiv plato Kumar</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
