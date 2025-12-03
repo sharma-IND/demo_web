@@ -9,7 +9,7 @@ export default function Hero() {
           <div className="space-y-2">
             <p className="text-sm font-mono text-accent animate-fade-in-up stagger-1">I am</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-balance animate-fade-in-up stagger-2">
-              Your Name
+              Deepak Kumar Sharma
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-in-up stagger-3">
               Stock Market Analyst & Algorithmic Strategy Builder
