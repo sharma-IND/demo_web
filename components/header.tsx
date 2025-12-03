@@ -58,13 +58,6 @@ export default function Header() {
               Projects
             </a>
             <a
-              href="#skills"
-              onClick={() => setIsOpen(false)}
-              className="text-sm text-muted-foreground hover:text-foreground transition"
-            >
-              Skills
-            </a>
-            <a
               href="#contact"
               onClick={() => setIsOpen(false)}
               className="text-sm text-muted-foreground hover:text-foreground transition"
