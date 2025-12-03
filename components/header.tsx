@@ -11,9 +11,9 @@ export default function Header() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
         <Link href="/" className="flex items-center gap-2">
           <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center font-mono font-bold text-primary-foreground">
-            V
+            DS
           </div>
-          <span className="font-bold text-xl hidden sm:inline">Your Name</span>
+          <span className="font-bold text-xl hidden sm:inline">Deepak Kumar Sharma</span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -22,9 +22,6 @@ export default function Header() {
           </a>
           <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition">
             Projects
-          </a>
-          <a href="#skills" className="text-sm text-muted-foreground hover:text-foreground transition">
-            Skills
           </a>
           <a href="#contact" className="text-sm text-muted-foreground hover:text-foreground transition">
             Contact
