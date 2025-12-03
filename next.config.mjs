@@ -1,14 +1,15 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',   // ✅ REQUIRED FOR STATIC EXPORT
+  output: 'export',
 
   typescript: {
     ignoreBuildErrors: true,
   },
 
   images: {
-    unoptimized: true, // ✅ REQUIRED FOR STATIC HOSTING
+    unoptimized: true,
   },
 }
 
 export default nextConfig
+
