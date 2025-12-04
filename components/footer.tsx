@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
           <div>
             <p className="font-bold">Deepak Kumar Sharma</p>
-            <p className="text-sm text-muted-foreground">Full-Stack Developer & Designer</p>
+            <p className="text-sm text-muted-foreground">Stock Market Analysist | Algo Strategy Builder</p>
           </div>
           <nav className="flex gap-6">
             <a href="#" className="text-sm text-muted-foreground hover:text-foreground transition">
