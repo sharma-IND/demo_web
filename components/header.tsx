@@ -18,6 +18,9 @@ export default function Header() {
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
+          <a href="#Header" className="text-sm text-muted-foreground hover:text-foreground transition">
+            Home
+          </a>
           <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition">
             About
           </a>
