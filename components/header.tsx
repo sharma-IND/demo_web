@@ -39,7 +39,6 @@ export default function Header() {
           </svg>
         </button>
       </div>
-
       {isOpen && (
         <div className="md:hidden fixed left-0 right-0 top-16 z-40 border-b border-border bg-background/95 backdrop-blur">
           <nav className="flex flex-col px-4 py-4 gap-4 max-w-6xl mx-auto">
