@@ -19,7 +19,7 @@ export default function Projects() {
       title: "High-Frequency Trading Bot",
       description: "Algorithmic trading system with sub-millisecond latency and advanced execution strategies",
       image: "/trading-bot.jpg",
-      tags: ["Python", "C++", "Real-time Data"],
+      tags: ["Python", "Real-time Data"],
       link: "#",
     },
     {
@@ -27,7 +27,7 @@ export default function Projects() {
       title: "Portfolio Optimization Engine",
       description: "Mean-variance optimization and Monte Carlo simulations for dynamic portfolio allocation",
       image: "/portfolio-optimization.jpg",
-      tags: ["NumPy", "Pandas", "Optimization"],
+      tags: ["NumPy", "Pandas", "PyTorch"],
       link: "#",
     },
     {
@@ -35,7 +35,7 @@ export default function Projects() {
       title: "Market Analysis Dashboard",
       description: "Real-time market data visualization with technical indicators and sentiment analysis",
       image: "/market-dashboard.jpg",
-      tags: ["Next.js", "Chart.js", "APIs"],
+      tags: ["Django", "Flask", "Rest APIs"],
       link: "#",
     },
   ])
