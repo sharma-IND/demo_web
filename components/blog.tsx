@@ -11,7 +11,7 @@ export default function Blog() {
     },
     {
       id: 2,
-      title: "Risk Management in Quantitative Trading",
+      title: "Risk Management in Algorithmic Trading",
       excerpt:
         "Essential techniques for portfolio risk assessment, position sizing, and drawdown management strategies.",
       date: "Nov 05, 2025",
@@ -20,7 +20,7 @@ export default function Blog() {
     },
     {
       id: 3,
-      title: "Backtesting Framework Best Practices",
+      title: "Backtesting Algo Framework Best Practices",
       excerpt: "Building robust backtesting systems to validate trading strategies and avoid overfitting pitfalls.",
       date: "Dec 01, 2025",
       readTime: "10 min read",
@@ -34,7 +34,7 @@ export default function Blog() {
         <div className="mb-12 animate-fade-in-up">
           <h2 className="text-3xl sm:text-4xl font-bold mb-4">Market Insights & Analysis</h2>
           <p className="text-lg text-muted-foreground">
-            Articles on trading strategies, quantitative analysis, and market trends
+            Articles on Algo trading strategies, Algorithmic analysis, and Market trends
           </p>
         </div>
 
