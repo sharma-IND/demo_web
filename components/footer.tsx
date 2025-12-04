@@ -18,7 +18,7 @@ export default function Footer() {
               RSS
             </a>
           </nav>
-          <p className="text-sm text-muted-foreground">© {new Date().getFullYear()} Deepak Kumar Sharma All rights reserved.</p>
+          <p className="text-sm text-muted-foreground">Deepak Kumar Sharma © {new Date().getFullYear()} All rights reserved.</p>
         </div>
       </div>
     </footer>

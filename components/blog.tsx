@@ -5,8 +5,8 @@ export default function Blog() {
       title: "Machine Learning Applications in Algorithmic Trading",
       excerpt:
         "Exploring neural networks and ensemble methods for predictive market analysis and strategy optimization.",
-      date: "Dec 15, 2024",
-      readTime: "12 min read",
+      date: "Nov 01, 2025",
+      readTime: "15 min read",
       category: "AI/ML",
     },
     {
@@ -14,15 +14,15 @@ export default function Blog() {
       title: "Risk Management in Quantitative Trading",
       excerpt:
         "Essential techniques for portfolio risk assessment, position sizing, and drawdown management strategies.",
-      date: "Dec 10, 2024",
-      readTime: "8 min read",
+      date: "Nov 05, 2025",
+      readTime: "10 min read",
       category: "Risk",
     },
     {
       id: 3,
       title: "Backtesting Framework Best Practices",
       excerpt: "Building robust backtesting systems to validate trading strategies and avoid overfitting pitfalls.",
-      date: "Dec 5, 2024",
+      date: "Dec 01, 2025",
       readTime: "10 min read",
       category: "Development",
     },
