@@ -11,13 +11,13 @@ export default function Contact() {
 
         <div className="flex flex-col sm:flex-row justify-center gap-4">
           <a
-            href="dk.sharma@wassup.co.in"
+            href="mailto:dk.sharma@wassup.co.in?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20connect."
             className="px-8 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition inline-block"
           >
             Send Email
           </a>
           <a
-            href="#"
+            href="https://wa.me/919855869447?text=Hello%20I%20would%20like%20to%20connect"
             className="px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-muted transition inline-block"
           >
             Schedule a Call
