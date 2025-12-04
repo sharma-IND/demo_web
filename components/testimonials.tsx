@@ -6,7 +6,7 @@ export default function Testimonials() {
       role: "Financial Manager",
       company: "P&G",
       text: "Working with this developer was an absolute pleasure. They delivered high-quality code on time and were always responsive to feedback.",
-      avatar: "SA",
+      avatar: "VKR",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default function Testimonials() {
       role: "Radio Joke (RJ)",
       company: "91.03 FM",
       text: "Exceptional problem-solving skills and attention to detail. They transformed our vision into a robust, scalable platform that our users love.",
-      avatar: "MC",
+      avatar: "HS",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export default function Testimonials() {
       role: "Machine Learning Sr. Engineer",
       company: "Techcadd IT Company",
       text: "Great collaboration and communication throughout the project. They understood our design requirements and brought them to life beautifully.",
-      avatar: "EW",
+      avatar: "SSK",
     },
   ]
 
