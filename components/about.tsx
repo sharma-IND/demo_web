@@ -32,8 +32,8 @@ export default function About() {
 
           <div className="grid grid-cols-2 gap-4">
             <div className="p-6 rounded-lg bg-primary/10 border border-primary/20">
-              <p className="font-bold text-lg text-foreground mb-2">Quantitative Analysis</p>
-              <p className="text-sm text-muted-foreground">Statistical modeling, Risk analysis, Monte Carlo</p>
+              <p className="font-bold text-lg text-foreground mb-2">Algorithmic Strategy Analysis</p>
+              <p className="text-sm text-muted-foreground">Statistical modeling, Risk analysis</p>
             </div>
             <div className="p-6 rounded-lg bg-accent/10 border border-accent/20">
               <p className="font-bold text-lg text-foreground mb-2">Trading Systems</p>
@@ -41,7 +41,7 @@ export default function About() {
             </div>
             <div className="p-6 rounded-lg bg-primary/10 border border-primary/20">
               <p className="font-bold text-lg text-foreground mb-2">Programming</p>
-              <p className="text-sm text-muted-foreground">Python, C++, Machine Learning, APIs</p>
+              <p className="text-sm text-muted-foreground">Python, Machine Learning, Rest APIs</p>
             </div>
             <div className="p-6 rounded-lg bg-accent/10 border border-accent/20">
               <p className="font-bold text-lg text-foreground mb-2">Market Data</p>
