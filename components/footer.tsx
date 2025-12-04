@@ -4,7 +4,7 @@ export default function Footer() {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col sm:flex-row justify-between items-center gap-6 text-center sm:text-left">
           <div>
-            <p className="font-bold">Your Name</p>
+            <p className="font-bold">Deepak Kumar Sharma</p>
             <p className="text-sm text-muted-foreground">Full-Stack Developer & Designer</p>
           </div>
           <nav className="flex gap-6">
