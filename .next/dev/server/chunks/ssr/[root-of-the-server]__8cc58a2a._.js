@@ -72,7 +72,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$vercel$2f$
 ;
 ;
 const metadata = {
-    title: "Portfolio | Your Name",
+    title: "DS | Portfolio",
     description: "Showcasing my work and experience in web development",
     generator: "v0.app",
     icons: {
