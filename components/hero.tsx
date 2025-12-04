@@ -12,7 +12,7 @@ export default function Hero() {
               Deepak Kumar Sharma
             </h1>
             <p className="text-xl sm:text-2xl text-muted-foreground animate-fade-in-up stagger-3">
-              Stock Market Analyst & Algorithmic Strategy Builder
+              Stock Market Analyst | Algorithmic Strategy Builder
             </p>
           </div>
 
