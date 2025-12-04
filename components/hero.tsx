@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="grid grid-cols-3 gap-4 pt-8 border-t border-border">
           <div className="animate-fade-in-up stagger-1">
             <p className="text-3xl sm:text-4xl font-bold text-accent">50+</p>
-            <p className="text-sm text-muted-foreground">Strategies Analyzed</p>
+            <p className="text-sm text-muted-foreground">Algo Strategies</p>
           </div>
           <div className="animate-fade-in-up stagger-2">
             <p className="text-3xl sm:text-4xl font-bold text-accent">8+</p>
