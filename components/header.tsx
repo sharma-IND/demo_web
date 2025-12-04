@@ -47,6 +47,12 @@ export default function Header() {
         <div className="md:hidden fixed left-0 right-0 top-16 z-40 border-b border-border bg-background/95 backdrop-blur">
           <nav className="flex flex-col px-4 py-4 gap-4 max-w-6xl mx-auto">
             <a
+              href="#Header"
+              onClick={() => setIsOpen(false)}
+              className="text-sm text-muted-foreground hover:text-foreground transition"
+            >
+            </a>
+            <a
               href="#about"
               onClick={() => setIsOpen(false)}
               className="text-sm text-muted-foreground hover:text-foreground transition"
