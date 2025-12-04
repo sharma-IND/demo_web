@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="flex flex-col gap-8 animate-fade-in-up">
         <div className="space-y-6">
           <div className="space-y-2">
-            <p className="text-sm font-mono text-accent animate-fade-in-up stagger-1">I am</p>
+            <p className="text-2xl font-mono text-accent animate-fade-in-up stagger-1">I am</p>
             <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight text-balance animate-fade-in-up stagger-2">
               Deepak Kumar Sharma
             </h1>
