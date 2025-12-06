@@ -91,3 +91,4 @@ Import traces:
     ./components/hero.tsx [Client Component SSR]
     ./app/page.tsx [Client Component SSR]
     ./app/page.tsx [Server Component]
+[00:09:39.798] Server  LOG      ✓ Compiled in 351ms
