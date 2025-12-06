@@ -8,8 +8,34 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "DS | Portfolio",
-  description: "Showcasing my work and experience in web development",
+  title: "Deepak Kumar Sharma | Stock Market Analyst & Algo Strategy Builder",
+  description:
+    "Deepak Kumar Sharma is a stock market analyst and algorithmic strategy builder specializing in quantitative trading strategies, backtesting systems, and data-driven market analysis.",
+  metadataBase: new URL("https://deepakkumarsharma.com"),
+  openGraph: {
+    title: "Deepak Kumar Sharma | Stock Market Analyst",
+    description:
+      "Data-driven algorithmic trading strategies, quantitative research, and market analysis.",
+    url: "https://deepakkumarsharma.com",
+    siteName: "Deepak Kumar Sharma",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Deepak Kumar Sharma - Stock Market Analyst",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Deepak Kumar Sharma | Algo Strategy Builder",
+    description:
+      "Professional algorithmic trading strategies and quantitative market analysis.",
+    images: ["/og-image.jpg"],
+  },
   generator: "v0.app",
   icons: {
     icon: [
