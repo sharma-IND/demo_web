@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Deepak Kumar Sharma | Stock Market Analyst",
     description:
-      "Data-driven algorithmic trading strategies, quantitative research, and market analysis.",
+      "Data-driven algorithmic trading strategies, quantitative research, and market analysis specializing in quantitative trading strategies",
     url: "https://deepakkumarsharma.com",
     siteName: "Deepak Kumar Sharma",
     images: [
