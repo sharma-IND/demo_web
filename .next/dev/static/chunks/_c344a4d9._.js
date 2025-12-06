@@ -38,7 +38,14 @@ function Header() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                 className: "font-bold text-xl hidden sm:inline",
-                                children: "Deepak Kumar Sharma"
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    className: "text-4xl font-bold",
+                                    children: "Deepak Kumar Sharma"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/header.tsx",
+                                    lineNumber: 17,
+                                    columnNumber: 64
+                                }, this)
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
                                 lineNumber: 17,
@@ -54,12 +61,27 @@ function Header() {
                         className: "hidden md:flex items-center gap-8",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                href: "#about",
+                                href: "#",
                                 className: "text-sm text-muted-foreground hover:text-foreground transition",
-                                children: "About"
+                                children: "Home"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
                                 lineNumber: 21,
+                                columnNumber: 11
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                href: "#about",
+                                className: "text-sm text-muted-foreground hover:text-foreground transition",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                    children: "About"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/header.tsx",
+                                    lineNumber: 25,
+                                    columnNumber: 13
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/header.tsx",
+                                lineNumber: 24,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -68,7 +90,7 @@ function Header() {
                                 children: "Projects"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 24,
+                                lineNumber: 27,
                                 columnNumber: 11
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -77,7 +99,7 @@ function Header() {
                                 children: "Contact"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 27,
+                                lineNumber: 30,
                                 columnNumber: 11
                             }, this)
                         ]
@@ -101,17 +123,17 @@ function Header() {
                                 d: isOpen ? "M6 18L18 6M6 6l12 12" : "M4 6h16M4 12h16M4 18h16"
                             }, void 0, false, {
                                 fileName: "[project]/components/header.tsx",
-                                lineNumber: 34,
+                                lineNumber: 37,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 33,
+                            lineNumber: 36,
                             columnNumber: 11
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/components/header.tsx",
-                        lineNumber: 32,
+                        lineNumber: 35,
                         columnNumber: 9
                     }, this)
                 ]
@@ -126,13 +148,22 @@ function Header() {
                     className: "flex flex-col px-4 py-4 gap-4 max-w-6xl mx-auto",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "#",
+                            onClick: ()=>setIsOpen(false),
+                            className: "text-sm text-muted-foreground hover:text-foreground transition"
+                        }, void 0, false, {
+                            fileName: "[project]/components/header.tsx",
+                            lineNumber: 49,
+                            columnNumber: 13
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                             href: "#about",
                             onClick: ()=>setIsOpen(false),
                             className: "text-sm text-muted-foreground hover:text-foreground transition",
                             children: "About"
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 46,
+                            lineNumber: 55,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -142,7 +173,7 @@ function Header() {
                             children: "Projects"
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 53,
+                            lineNumber: 62,
                             columnNumber: 13
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -152,18 +183,18 @@ function Header() {
                             children: "Contact"
                         }, void 0, false, {
                             fileName: "[project]/components/header.tsx",
-                            lineNumber: 60,
+                            lineNumber: 69,
                             columnNumber: 13
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/header.tsx",
-                    lineNumber: 45,
+                    lineNumber: 48,
                     columnNumber: 11
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/components/header.tsx",
-                lineNumber: 44,
+                lineNumber: 47,
                 columnNumber: 9
             }, this)
         ]
@@ -206,7 +237,7 @@ function Hero() {
                             className: "space-y-2",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-sm font-mono text-accent animate-fade-in-up stagger-1",
+                                    className: "text-2xl font-mono text-accent animate-fade-in-up stagger-1",
                                     children: "I am"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
@@ -223,7 +254,7 @@ function Hero() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-xl sm:text-2xl text-muted-foreground animate-fade-in-up stagger-3",
-                                    children: "Stock Market Analyst & Algorithmic Strategy Builder"
+                                    children: "Stock Market Analyst | Algorithmic Strategy Builder"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
                                     lineNumber: 14,
@@ -249,7 +280,13 @@ function Hero() {
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#projects",
                                     className: "px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition",
-                                    children: "View Strategies"
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        children: "View Strategies"
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/hero.tsx",
+                                        lineNumber: 30,
+                                        columnNumber: 15
+                                    }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
                                     lineNumber: 26,
@@ -284,7 +321,7 @@ function Hero() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-3xl sm:text-4xl font-bold text-accent",
-                                    children: "100+"
+                                    children: "50+"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
                                     lineNumber: 43,
@@ -292,7 +329,7 @@ function Hero() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-sm text-muted-foreground",
-                                    children: "Strategies Analyzed"
+                                    children: "Algo Strategies"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
                                     lineNumber: 44,
@@ -334,7 +371,7 @@ function Hero() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                     className: "text-3xl sm:text-4xl font-bold text-accent",
-                                    children: "$50M+"
+                                    children: "₹100K+"
                                 }, void 0, false, {
                                     fileName: "[project]/components/hero.tsx",
                                     lineNumber: 51,
@@ -445,7 +482,7 @@ function About() {
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "font-bold text-lg text-foreground mb-2",
-                                            children: "Quantitative Analysis"
+                                            children: "Algorithmic Strategy Analysis"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about.tsx",
                                             lineNumber: 35,
@@ -453,7 +490,7 @@ function About() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-muted-foreground",
-                                            children: "Statistical modeling, Risk analysis, Monte Carlo"
+                                            children: "Statistical modeling, Risk analysis"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about.tsx",
                                             lineNumber: 36,
@@ -503,7 +540,7 @@ function About() {
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                             className: "text-sm text-muted-foreground",
-                                            children: "Python, C++, Machine Learning, APIs"
+                                            children: "Python, Machine Learning, Rest APIs"
                                         }, void 0, false, {
                                             fileName: "[project]/components/about.tsx",
                                             lineNumber: 44,
@@ -596,7 +633,6 @@ function Projects() {
             image: "/trading-bot.jpg",
             tags: [
                 "Python",
-                "C++",
                 "Real-time Data"
             ],
             link: "#"
@@ -609,7 +645,7 @@ function Projects() {
             tags: [
                 "NumPy",
                 "Pandas",
-                "Optimization"
+                "PyTorch"
             ],
             link: "#"
         },
@@ -619,9 +655,9 @@ function Projects() {
             description: "Real-time market data visualization with technical indicators and sentiment analysis",
             image: "/market-dashboard.jpg",
             tags: [
-                "Next.js",
-                "Chart.js",
-                "APIs"
+                "Django",
+                "Flask",
+                "Rest APIs"
             ],
             link: "#"
         }
@@ -760,7 +796,7 @@ function Projects() {
         columnNumber: 5
     }, this);
 }
-_s(Projects, "U4lhSwAmUGrdc1GcvtJ95Mr86KM=");
+_s(Projects, "vyrF7CzoaWXA0/nuzpHYroUXxhU=");
 _c = Projects;
 var _c;
 __turbopack_context__.k.register(_c, "Projects");
@@ -781,27 +817,27 @@ function Testimonials() {
     const testimonials = [
         {
             id: 1,
-            name: "Sarah Anderson",
-            role: "Product Manager",
-            company: "TechCorp",
+            name: "Vivek Kumar Rajput",
+            role: "Financial Manager",
+            company: "P&G",
             text: "Working with this developer was an absolute pleasure. They delivered high-quality code on time and were always responsive to feedback.",
-            avatar: "SA"
+            avatar: "VKR"
         },
         {
             id: 2,
-            name: "Michael Chen",
-            role: "Startup Founder",
-            company: "InnovateLabs",
+            name: "Himanshu Sharma",
+            role: "Radio Joke (RJ)",
+            company: "91.03 FM",
             text: "Exceptional problem-solving skills and attention to detail. They transformed our vision into a robust, scalable platform that our users love.",
-            avatar: "MC"
+            avatar: "HS"
         },
         {
             id: 3,
-            name: "Emma Watson",
-            role: "Design Lead",
-            company: "Creative Agency",
+            name: "Shiv Shankar Kumar",
+            role: "Machine Learning Sr. Engineer",
+            company: "Techcadd IT Company",
             text: "Great collaboration and communication throughout the project. They understood our design requirements and brought them to life beautifully.",
-            avatar: "EW"
+            avatar: "SSK"
         }
     ];
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -944,23 +980,23 @@ function Blog() {
             id: 1,
             title: "Machine Learning Applications in Algorithmic Trading",
             excerpt: "Exploring neural networks and ensemble methods for predictive market analysis and strategy optimization.",
-            date: "Dec 15, 2024",
-            readTime: "12 min read",
+            date: "Nov 01, 2025",
+            readTime: "15 min read",
             category: "AI/ML"
         },
         {
             id: 2,
-            title: "Risk Management in Quantitative Trading",
+            title: "Risk Management in Algorithmic Trading",
             excerpt: "Essential techniques for portfolio risk assessment, position sizing, and drawdown management strategies.",
-            date: "Dec 10, 2024",
-            readTime: "8 min read",
+            date: "Nov 05, 2025",
+            readTime: "10 min read",
             category: "Risk"
         },
         {
             id: 3,
-            title: "Backtesting Framework Best Practices",
+            title: "Backtesting Algo Framework Best Practices",
             excerpt: "Building robust backtesting systems to validate trading strategies and avoid overfitting pitfalls.",
-            date: "Dec 5, 2024",
+            date: "Dec 01, 2025",
             readTime: "10 min read",
             category: "Development"
         }
@@ -984,7 +1020,7 @@ function Blog() {
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             className: "text-lg text-muted-foreground",
-                            children: "Articles on trading strategies, quantitative analysis, and market trends"
+                            children: "Articles on Algo trading strategies, Algorithmic analysis, and Market trends"
                         }, void 0, false, {
                             fileName: "[project]/components/blog.tsx",
                             lineNumber: 36,
@@ -1129,7 +1165,9 @@ function Contact() {
                     className: "flex flex-col sm:flex-row justify-center gap-4",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "mailto:hello@example.com",
+                            href: "mailto:dk.sharma@wassup.co.in?subject=Inquiry&body=Hello,%20I%20would%20like%20to%20connect.",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "px-8 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition inline-block",
                             children: "Send Email"
                         }, void 0, false, {
@@ -1138,12 +1176,14 @@ function Contact() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://wa.me/919855869447?text=Hello%20I%20would%20like%20to%20connect",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "px-8 py-3 border border-border text-foreground rounded-lg font-medium hover:bg-muted transition inline-block",
                             children: "Schedule a Call"
                         }, void 0, false, {
                             fileName: "[project]/components/contact.tsx",
-                            lineNumber: 19,
+                            lineNumber: 21,
                             columnNumber: 11
                         }, this)
                     ]
@@ -1156,7 +1196,9 @@ function Contact() {
                     className: "flex justify-center gap-6 pt-8",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://github.com/sharma-IND",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "text-muted-foreground hover:text-accent transition",
                             title: "GitHub",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1165,31 +1207,6 @@ function Contact() {
                                 viewBox: "0 0 24 24",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                     d: "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v 3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-                                }, void 0, false, {
-                                    fileName: "[project]/components/contact.tsx",
-                                    lineNumber: 30,
-                                    columnNumber: 15
-                                }, this)
-                            }, void 0, false, {
-                                fileName: "[project]/components/contact.tsx",
-                                lineNumber: 29,
-                                columnNumber: 13
-                            }, this)
-                        }, void 0, false, {
-                            fileName: "[project]/components/contact.tsx",
-                            lineNumber: 28,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
-                            className: "text-muted-foreground hover:text-accent transition",
-                            title: "LinkedIn",
-                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                className: "w-6 h-6",
-                                fill: "currentColor",
-                                viewBox: "0 0 24 24",
-                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                    d: "M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.002 1.413-.103.249-.129.597-.129.946v5.446h-3.554s.05-8.836 0-9.754h3.554v1.391c.432-.668 1.202-1.618 2.923-1.618 2.136 0 3.736 1.393 3.736 4.38v5.601zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.955.77-1.71 1.963-1.71 1.193 0 1.915.755 1.93 1.71 0 .951-.737 1.71-1.978 1.71zm1.582 11.597H3.714V9.553h3.205v10.899zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact.tsx",
                                     lineNumber: 35,
@@ -1202,19 +1219,21 @@ function Contact() {
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/contact.tsx",
-                            lineNumber: 33,
+                            lineNumber: 32,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                            href: "#",
+                            href: "https://www.linkedin.com/",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
                             className: "text-muted-foreground hover:text-accent transition",
-                            title: "Twitter",
+                            title: "LinkedIn",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
                                 className: "w-6 h-6",
                                 fill: "currentColor",
                                 viewBox: "0 0 24 24",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                    d: "M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-3-10.67z"
+                                    d: "M20.447 20.452h-3.554v-5.569c0-1.328-.475-2.236-1.986-2.236-1.081 0-1.722.722-2.002 1.413-.103.249-.129.597-.129.946v5.446h-3.554s.05-8.836 0-9.754h3.554v1.391c.432-.668 1.202-1.618 2.923-1.618 2.136 0 3.736 1.393 3.736 4.38v5.601zM5.337 8.855c-1.144 0-1.915-.759-1.915-1.71 0-.955.77-1.71 1.963-1.71 1.193 0 1.915.755 1.93 1.71 0 .951-.737 1.71-1.978 1.71zm1.582 11.597H3.714V9.553h3.205v10.899zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.225 0z"
                                 }, void 0, false, {
                                     fileName: "[project]/components/contact.tsx",
                                     lineNumber: 40,
@@ -1229,11 +1248,38 @@ function Contact() {
                             fileName: "[project]/components/contact.tsx",
                             lineNumber: 38,
                             columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: "https://x.com",
+                            target: "_blank",
+                            rel: "noopener noreferrer",
+                            className: "text-muted-foreground hover:text-accent transition",
+                            title: "Twitter",
+                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
+                                className: "w-6 h-6",
+                                fill: "currentColor",
+                                viewBox: "0 0 24 24",
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
+                                    d: "M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2s9 5 20 5a9.5 9.5 0 00-9-5.5c4.75 2.25 7-7 7-7a10.6 10.6 0 01-3-10.67z"
+                                }, void 0, false, {
+                                    fileName: "[project]/components/contact.tsx",
+                                    lineNumber: 45,
+                                    columnNumber: 15
+                                }, this)
+                            }, void 0, false, {
+                                fileName: "[project]/components/contact.tsx",
+                                lineNumber: 44,
+                                columnNumber: 13
+                            }, this)
+                        }, void 0, false, {
+                            fileName: "[project]/components/contact.tsx",
+                            lineNumber: 43,
+                            columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/contact.tsx",
-                    lineNumber: 27,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this)
             ]
@@ -1276,7 +1322,7 @@ function Footer() {
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "font-bold",
-                                children: "Your Name"
+                                children: "Deepak Kumar Sharma"
                             }, void 0, false, {
                                 fileName: "[project]/components/footer.tsx",
                                 lineNumber: 7,
@@ -1284,7 +1330,7 @@ function Footer() {
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                 className: "text-sm text-muted-foreground",
-                                children: "Full-Stack Developer & Designer"
+                                children: "Stock Market Analysist | Algo Strategy Builder"
                             }, void 0, false, {
                                 fileName: "[project]/components/footer.tsx",
                                 lineNumber: 8,
@@ -1335,7 +1381,7 @@ function Footer() {
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                         className: "text-sm text-muted-foreground",
                         children: [
-                            "© ",
+                            "Deepak Kumar Sharma © ",
                             new Date().getFullYear(),
                             " All rights reserved."
                         ]
@@ -1435,7 +1481,13 @@ function Home() {
                 lineNumber: 22,
                 columnNumber: 7
             }, this),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$contact$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$contact$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
+                    fileName: "[project]/app/page.tsx",
+                    lineNumber: 23,
+                    columnNumber: 11
+                }, this)
+            }, void 0, false, {
                 fileName: "[project]/app/page.tsx",
                 lineNumber: 23,
                 columnNumber: 7

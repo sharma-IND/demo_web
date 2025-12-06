@@ -27,7 +27,7 @@ export default function Hero() {
               href="#projects"
               className="px-6 py-3 bg-primary text-primary-foreground rounded-lg font-medium hover:opacity-90 transition"
             >
-              View Strategies
+              <h2>View Strategies</h2>
             </Link>
             <a
               href="#contact"

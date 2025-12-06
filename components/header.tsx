@@ -14,7 +14,7 @@ export default function Header() {
           <div className="w-10 h-10 rounded-lg bg-primary flex items-center justify-center font-mono font-bold text-primary-foreground">
             DS
           </div>
-          <span className="font-bold text-xl hidden sm:inline">Deepak Kumar Sharma</span>
+          <span className="font-bold text-xl hidden sm:inline"><h1 className="text-4xl font-bold">Deepak Kumar Sharma</h1></span>
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
@@ -22,7 +22,7 @@ export default function Header() {
             Home
           </a>
           <a href="#about" className="text-sm text-muted-foreground hover:text-foreground transition">
-            About
+            <h2>About</h2>
           </a>
           <a href="#projects" className="text-sm text-muted-foreground hover:text-foreground transition">
             Projects

@@ -41,7 +41,7 @@ export const metadata: Metadata = {
       "Professional algorithmic trading strategies and quantitative market analysis.",
     images: ["/og-image.jpg"],
   },
-  generator: "v0.app",
+  // generator: "v0.app",
   icons: {
     icon: [
       {
