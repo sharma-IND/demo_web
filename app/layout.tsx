@@ -7,6 +7,11 @@ import "./globals.css"
 const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "Deepak Kumar Sharma | Stock Market Analyst & Algo Strategy Builder",
   description:
@@ -55,6 +60,8 @@ export const metadata: Metadata = {
     apple: "/apple-icon.png",
   },
 }
+
+
 
 export default function RootLayout({
   children,
