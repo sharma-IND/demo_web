@@ -8,6 +8,7 @@ interface Project {
   title: string
   description: string
   image: string
+  alt?: string
   tags: string[]
   link: string
 }
@@ -19,6 +20,7 @@ export default function Projects() {
       title: "High-Frequency Trading Bot",
       description: "Algorithmic trading system with sub-millisecond latency and advanced execution strategies",
       image: "/trading-bot.jpg",
+      alt: "High-Frequency Trading Bot",
       tags: ["Python", "Real-time Data"],
       link: "#",
     },
@@ -27,6 +29,7 @@ export default function Projects() {
       title: "Portfolio Optimization Engine",
       description: "Mean-variance optimization and Monte Carlo simulations for dynamic portfolio allocation",
       image: "/portfolio-optimization.jpg",
+      alt: "Portfolio Optimization Engine",
       tags: ["NumPy", "Pandas", "PyTorch"],
       link: "#",
     },
@@ -35,6 +38,7 @@ export default function Projects() {
       title: "Market Analysis Dashboard",
       description: "Real-time market data visualization with technical indicators and sentiment analysis",
       image: "/market-dashboard.jpg",
+      alt: "Market Analysis Dashboard",
       tags: ["Django", "Flask", "Rest APIs"],
       link: "#",
     },
