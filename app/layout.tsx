@@ -15,7 +15,7 @@ export const viewport = {
 export const metadata: Metadata = {
   title: "Deepak Kumar Sharma | Stock Market Analyst & Algo Strategy Builder",
   description:
-    "Deepak Kumar Sharma is a stock market analyst and algorithmic strategy builder specializing in quantitative trading strategies, backtesting systems, and data-driven market analysis.",
+    "Deepak Kumar Sharma is a stock market analyst and algorithmic strategy builder.",
   metadataBase: new URL("https://deepakkumarsharma.com"),
   openGraph: {
     title: "Deepak Kumar Sharma | Stock Market Analyst",
